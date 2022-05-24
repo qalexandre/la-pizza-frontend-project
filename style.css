@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+}
+
+.main {
+    padding: auto;
+    width: 100vw;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(46, 46, 46, 0.6), rgba(46, 46, 46, 0.6)), url(assets/images/background-pizza.png) no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .title {
+
+    width: 377px;
+    height: 121px;
+
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 121px;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.text-yellow {
+    color: #FFA200;
+}
+
+.text-red {
+    color: #CF3031;
+}
+
+.text-green {
+    color: #5C913B;
+}
+
+.best-sellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.best-sellers .title {
+    font-family: 'Sora';
+    font-style: 'normal';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #2E2E2E;
+    /* mexer dps */
+
+    margin-bottom: 88px;
+}
+
+
+.list-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.card-pizza {
+    width: 250px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FEF6F4;
+    border-radius: 25px;
+}
+
+
+
+.card-header {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.card-image {
+    grid-column: 2;
+}
+
+.card-icon {
+    grid-column: 3;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    width: 35px;
+    height: 35px;
+
+    background: #FFD4C9;
+    border: 2px solid #CF3031;
+    border-radius: 14px;
+}
+
+.card-icon img {
+    width: 15px;
+    height: 15px;
+}
+
+.card-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-desc {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+    width: 190px;
+    text-align: center;
+
+    color: #616161;
+}
+
+.card-price {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #2E2E2E;
+
+    margin-top: 20px;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 8px 32px;
+    gap: 10px;
+
+    background: #FFA200;
+    border-radius: 25px;
+
+    margin-top: 30px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+
+
+    color: #2E2E2E;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 12px 40px;
+    gap: 10px;
+}
+
+.about-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #2E2E2E;
+}
+
+.about-desc {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    width: 458px;
+
+
+    color: #2E2E2E;
+}
+
+.about-button {
+
+    padding: 12px 40px;
+    background: #FFA200;
+    border-radius: 25px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 94% */
+
+
+    color: #2E2E2E;
+    text-decoration: none;
+
+}
+
+.copyright {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #2E2E2E;
+
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+.icon {
+    position: absolute;
+}
+
+.icon-plant {
+
+    width: 100px;
+    height: 119.85px;
+    left: -10px;
+    top: 450px;
+}
+
+.icon-mushroom {
+    width: 50px;
+    height: 43.67px;
+    right: 20%;
+    top: 550px;
+
+    filter: drop-shadow(4px 1px 6px rgba(0, 0, 0, 0.25));
+}
+
+.icon-fish {
+    width: 100px;
+    height: 100px;
+    left: 30%;
+    top: 600px;
+}
+
+.icon-tomato {
+    right: 10px;
+    top: 1100px;
+}
+
+.icon-pepper {
+    top: 1000px;
+}
+
+.icon-pizza {
+    width: 130px;
+    height: 130px;
+    left: 230px;
+    top: 1200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(assets/svg/elipse.svg);
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: 0px 3.04px 3.04px rgba(159, 62, 62, 0.25);
+    transform: rotate(-90deg);
+}
+
+.icon-pizza img {
+    transform: matrix(-0.6, 0.8, -0.8, -0.6, 0, 0);
+}
+
+.icon-pizza-cut {
+    width: 130px;
+    height: 130px;
+    right: 60px;
+    top: 1500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(assets/svg/elipse.svg);
+
+    background: linear-gradient(180deg, #fff 0%, #fff 100%);
+    box-shadow: 0px 3.04px 3.04px rgba(159, 62, 62, 0.25);
+}
+
+.icon-pizza-cut img {
+    margin-left: 12px;
+    margin-bottom: 22px;
+}
